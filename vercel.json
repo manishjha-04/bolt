@@ -11,11 +11,6 @@
       "src": "/(.*)",
       "dest": "build/server/index.js"
     }
-  ],
-  "functions": {
-    "api/**/*.ts": {
-      "memory": 1024,
-      "maxDuration": 60
-    }
-  }
+  ]
+
 } 
